@@ -144,7 +144,7 @@ const HomeScreen = () => {
         {/* box icon */}
         <View className="flex-row justify-center">
           <Image
-            source={require('../../assets/images/bot.png')}
+            source={require('../../assets/images/avatar.jpeg')}
             style={{height: hp(15), width: hp(15)}}
           />
         </View>
@@ -239,8 +239,8 @@ const HomeScreen = () => {
             <TouchableOpacity onPress={startRecording}>
               <Image
                 className="rounded-full"
-                source={require('../../assets/images/recordingIcon.png')}
-                style={{width: hp(10), height: hp(10)}}
+                source={require('../../assets/images/recording.png')}
+                style={{width: hp(10), height: hp(8)}}
               />
             </TouchableOpacity>
           )}

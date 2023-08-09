@@ -25,14 +25,14 @@ const WelcomeScreen = () => {
 
       <View className="flex-row justify-center">
         <Image
-          source={require('../../assets/images/welcome.png')}
+          source={require('../../assets/images/avatar.jpeg')}
           style={{width: wp(75), height: wp(75)}}
         />
       </View>
 
       <TouchableOpacity
         onPress={() => navigation.navigate('Home')}
-        className="bg-emerald-600 mx-5 p-4 rounded-2xl">
+        className="bg-[#067fd0] mx-5 p-4 rounded-2xl">
         <Text
           style={{fontSize: wp(6)}}
           className="text-center font-bold text-white">
